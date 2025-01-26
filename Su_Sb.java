@@ -12,5 +12,6 @@ public static void main(String[] args) {
     System.out.println(sb.insert(11," String Buffer" ));
     System.out.println(sb.delete(5,11));
     System.out.println(sb.deleteCharAt(3));
+    System.out.println("capacity :" + su.capacity());
 }
 }
