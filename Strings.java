@@ -3,7 +3,7 @@ public class Strings {
         String s1 = "Hello world"; 
         String s2 ="hello";
         String s3 = ""; 
-        String s4 =" "; 
+        String s4 =" ";
             System.out.println(s1.startsWith("h")); 
             System.out.println(s1.endsWith("d")); 
             System.out.println(s1.toUpperCase());
