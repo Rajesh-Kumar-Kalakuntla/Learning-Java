@@ -22,7 +22,7 @@ public class Strings {
             System.out.println(a.toString()); 
             System.out.println(s1.contains(s2)); 
             System.out.println(s3.isEmpty()); 
-            System.out.println(s3.isBlank()); 
+            System.out.println(s4.isBlank()); 
             System.out.println(s1.substring(5,11)); 
             System.out.println(s1.hashCode()); 
             s1 = s1 + "world"; 
