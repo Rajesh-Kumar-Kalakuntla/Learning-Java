@@ -1,5 +1,6 @@
 public class Su_Sb {
 public static void main(String[] args) {
+    @SuppressWarnings("StringBufferMayBeStringBuilder")
     StringBuffer sb = new StringBuffer("Hello world");
     StringBuffer s1 = new StringBuffer("Hello");
     StringBuilder su = new StringBuilder("hello");
