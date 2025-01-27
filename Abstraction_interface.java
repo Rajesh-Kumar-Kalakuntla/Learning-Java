@@ -4,9 +4,11 @@ interface ATM{
     void cash_Counting();
 }
 class Sbi_Atm implements ATM{
+    @Override
     public void withdraw(){
         System.out.println("withdrawing cash");
     }
+    @Override
     public void cash_Counting(){
           System.out.println("cash Counting");
     }
