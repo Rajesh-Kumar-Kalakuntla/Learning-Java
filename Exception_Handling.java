@@ -15,6 +15,7 @@ public class Exception_Handling{
          System.out.println("enter your age :");
          int age = sc.nextInt();
           checkAge(age);
+
        try { 
         //if a invalid value like string is entered then an exception occurs because of int datatype the values should be integers
        System.out.println("enter a number :");
@@ -31,6 +32,7 @@ public class Exception_Handling{
         System.out.println("not valid a valid number");
         throw e;
        }
+
        }
        catch(Exception e){
         System.out.println("not a valid value!!");
@@ -39,6 +41,7 @@ public class Exception_Handling{
        finally {
         System.out.println(" execution is completed or stopped");
        }
+
      }
     catch(Exception e){
           System.out.println("Error: " + e.getMessage());
