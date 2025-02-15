@@ -1,7 +1,7 @@
 import java.util.*;
 public class Exception_Handling{
    static void checkAge(int age) throws Exception {
-            if(age>18){
+            if(age>=18){
                System.out.println("valid-age Access Granted");
             }
             else {
@@ -10,12 +10,10 @@ public class Exception_Handling{
    }
     public static void main(String[] args){
 
-       Scanner sc = new Scanner(System.in);
-       try {
+       try(Scanner sc = new Scanner(System.in)){
          System.out.println("enter your age :");
          int age = sc.nextInt();
           checkAge(age);
-
        try { 
         //if a invalid value like string is entered then an exception occurs because of int datatype the values should be integers
        System.out.println("enter a number :");
